@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, papel o tijera</title>
+    <script>
+        //1 es piedra, 2 es papel, 3 es tijera
+        let jugador1 = 0
+        //variable para elegir el numero aleatorio
+        let jugador2 = 0
+        jugador1 = prompt("Jugador1: 1 es para piedra, 2 es para papel, 3 es para tijera")
+        jugador2 = prompt("Jugador2: 1 es para piedra, 2 es para papel, 3 es para tijera")
+
+        //alert("Elegiste " + jugador)
+        if(jugador1==1) {
+            alert("Jugador1 elige piedra")
+        } else if(jugador1==2){
+            alert("Jugador1 elige piedra")
+        }
+        else if(jugador1==3){
+            alert("Jugador1 elige piedra")
+        }
+        else{
+            alert("No es correcto")
+        }
+       //pc
+        if(jugador2==1) {
+            alert("Jugador2 elige piedra")
+        } else if(jugador2==2){
+            alert("Jugador2 elige papel")
+        }
+        else if(jugador2==3){
+            alert("Jugador2 elige tijera")
+        }
+        else{
+            alert("No es correcto")
+        }
+        //combate
+        if (jugador2 == jugador1) {
+            alert("Empate")
+        } 
+        else if(jugador1==1 && jugador2==3){
+            alert("Gana Jugador1")
+        }
+        else if(jugador1==2 && jugador2==1){
+            alert("Gana Jugador1")
+        }
+        else if(jugador1==3 && jugador2==2){
+            alert("Gana Jugador1")
+        }
+        else{
+            alert("Pierde Jugador1") 
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
+<!--el == es de comparacion y = es de asignacion -->
+<!--Para insertar emojis en VisualStudio: windows + punto-->
+<!--Math.floor es una funcion que le quita los decimales a cualquier numero-->
+<!--Math.random()nos genera un numero aleatorio-->

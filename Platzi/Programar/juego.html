@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, papel o tijera</title>
+    <script>
+        //juego aleatorio 
+        //1 es piedra, 2 es papel, 3 es tijera
+        let jugador = 0
+        let min = 1
+        let max = 3
+        //variable para elegir el numero aleatorio
+        let pc = Math.floor(Math.random() * (max - min + 1) + min)
+        jugador = prompt("1 es para piedra, 2 es para papel, 3 es para tijera")
+        //alert("Elegiste " + jugador)
+        if(jugador==1) {
+            alert("Elegiste piedra")
+        } else if(jugador==2){
+            alert("Elegiste papel")
+        }
+        else if(jugador==3){
+            alert("Elegiste tijera")
+        }
+        else{
+            alert("No es correcto")
+        }
+       //pc
+        if(pc==1) {
+            alert("pc elige piedra")
+        } else if(pc==2){
+            alert("pc elige papel")
+        }
+        else if(pc==3){
+            alert("pc elige tijera")
+        }
+        else{
+            alert("No es correcto")
+        }
+        //combate
+        if (pc == jugador) {
+            alert("Empate")
+        } 
+        else if(jugador==1 && pc==3){
+            alert("Ganaste")
+        }
+        else if(jugador==2 && pc==1){
+            alert("Ganaste")
+        }
+        else if(jugador==3 && pc==2){
+            alert("Ganaste")
+        }
+        else{
+            alert("Pierdes") 
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
+<!--el == es de comparacion y = es de asignacion -->
+<!--Para insertar emojis en VisualStudio: windows + punto-->
+<!--Math.floor es una funcion que le quita los decimales a cualquier numero-->
+<!--Math.random()nos genera un numero aleatorio-->

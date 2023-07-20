@@ -1,0 +1,42 @@
+
+header h1:hover{
+    background: blue;
+}
+ 
+header h1{
+
+    text-align: center;
+}
+ div img{
+    height: 300px;
+    width: 400px;
+   display:inline-flex;
+   padding: 20px;
+   float: left;
+ }
+ div{
+    display:inline-block;
+   margin-right: 20%;
+    padding: 10px;
+}
+footer a {
+    color: white;
+    background-color: rgba(0, 145, 255, 0.539)
+
+}
+footer a:hover{
+    color: blue;
+}
+footer{
+    background-color: rgb(0, 174, 255);
+}
+
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: url(imagen2.avif);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}

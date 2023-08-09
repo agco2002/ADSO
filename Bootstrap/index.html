@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8"><!--Un metadato es la codificacion de las caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Nos permite ajustar nuestra ventana a dispositivos de distintos tamaños-->
+    <meta name="author" content="Andres">
+    <meta name="description" content="Portafolio de desarrollo web">
+    <meta name="keywords" content="HTML, CSS, JavaScript"><!--Palabras claves-->
+    <title>Desarrollo web Front-End con Bootstrapt</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/programacion.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+<!--CDN Iconos Bootstrap-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img src="img/programacion.png" width="50" alt="Logo de la pagina web">
+            </a>
+
+            <ul class="navbar-nav d-flex justify-content-center align-items">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contactos</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <!---Contenido principal--->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen" src="img/desarrollador.png"  alt="Foto de perfil">
+            <h1>Hola, soy Andres</h1>
+            <h2>Desarrollador Front-End </h2>
+        </div>
+        <div class="hero_inferior">
+            <img class="hero_inferior.imagen img-fluid" src="img/images.png" alt="">
+        </div>
+    </section>
+    <!--Seccion sobre mi-->
+    <section class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Pudes conocer mi trabajo en esta pagina</h2>
+            <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto similique, nulla minima alias pariatur harum sit, quia deserunt quidem est dolores blanditiis? Vel, optio esse voluptatibus dolores cum ratione perspiciatis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur impedit delectus expedita dolore a eveniet, distinctio hic quis labore quo, veritatis nobis quasi quod dolorum ipsa voluptatem doloremque tempora cupiditate.
+            </p>
+        </div>
+
+    </section>
+
+<!--Experiencia-->
+
+<section class="experiencia seccion-clara">
+    <div class="container text-center">
+        <div class="row">
+            <!--Desarrollo web-->
+            <div class="columna col-12 col-md-4"><!--Cuando la pantalla sea pequeña ocupara las 12 columnas y cuando sea mediana 4-->
+                <i class="bi bi-laptop"></i>
+                <p Experiencia-titulo>Desarrollo web</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque unde, est aut sapiente blanditiis commodi deleniti, omnis veritatis quam, perferendis alias fugiat in! Quasi, repudiandae. Adipisci optio provident consequatur vitae!</p>
+                <div class="badges-contenedor">
+                    <span class="badge text-bg-primary">HTML</span>
+                    <span class="badge text-bg-primary">CSS</span>
+                    <span class="badge text-bg-primary">JavaScript</span>
+                    <span class="badge text-bg-primary">PHP</span>
+                </div>
+            </div>
+            <!--Articulos-->
+            <div class="columna col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p Experiencia-titulo>Desarrollo web</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque unde, est aut sapiente blanditiis commodi deleniti, omnis veritatis quam, perferendis alias fugiat in! Quasi, repudiandae. Adipisci optio provident consequatur vitae!</p>
+                <div class="badges-contenedor">
+                    <span class="badge text-bg-primary">HTML</span>
+                    <span class="badge text-bg-primary">CSS</span>
+                    <span class="badge text-bg-primary">JavaScript</span>
+                    <span class="badge text-bg-primary">PHP</span>
+                </div>
+            </div>
+            <!--Estudiante-->
+            <div class="columna col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p Experiencia-titulo>Desarrollo web</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque unde, est aut sapiente blanditiis commodi deleniti, omnis veritatis quam, perferendis alias fugiat in! Quasi, repudiandae. Adipisci optio provident consequatur vitae!</p>
+                <div class="badges-contenedor">
+                    <span class="badge text-bg-primary">HTML</span>
+                    <span class="badge text-bg-primary">CSS</span>
+                    <span class="badge text-bg-primary">JavaScript</span>
+                    <span class="badge text-bg-primary">PHP</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--Proyectos-->
+<section class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+    <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente</h3>
+<!--Galeria de proyectos-->
+
+<div class="container text-center proyectos-contenedor">
+    <div class="row">
+        <!--Proyecto 1-->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+                <img src="img/proyecto1.jpg" alt="Proyecto 1">
+                <!--Contenido sobre la imagen-->
+                <div class="overlay">
+                    <p>Proyecto 1</p>
+                    <div class="Iconos-contenedor">
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-laptop"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Proyecto 2-->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+                <img src="img/proyecto2.png" alt="Proyecto 1">
+                <!--Contenido sobre la imagen-->
+                <div class="overlay">
+                    <p>Proyecto 2</p>
+                    <div class="Iconos-contenedor">
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-laptop"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Proyecto 3-->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+                <img src="img/proyecto3.png" alt="Proyecto 1">
+                <!--Contenido sobre la imagen-->
+                <div class="overlay">
+                    <p>Proyecto 3</p>
+                    <div class="Iconos-contenedor">
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-laptop"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Proyecto 4-->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+                <img src="img/proyecto4.jpg" alt="Proyecto 1">
+                <!--Contenido sobre la imagen-->
+                <div class="overlay">
+                    <p>Proyecto 4</p>
+                    <div class="Iconos-contenedor">
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-laptop"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Proyecto 5-->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+                <img src="img/proyecto5.jpg" alt="Proyecto 1">
+                <!--Contenido sobre la imagen-->
+                <div class="overlay">
+                    <p>Proyecto 5</p>
+                    <div class="Iconos-contenedor">
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-laptop"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Proyecto 6-->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+                <img src="img/proyecto6.jpg" alt="Proyecto 1">
+                <!--Contenido sobre la imagen-->
+                <div class="overlay">
+                    <p>Proyecto 6</p>
+                    <div class="Iconos-contenedor">
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-laptop"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<button type="button" class="btn btn-info">Info</button>
+</section>
+
+<!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
